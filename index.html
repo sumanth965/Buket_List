@@ -1,40 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Bucket List </title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attractive Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #f0f0f0;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      background-color: #ffffff;
+      color: #2575fc;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #2575fc;
+      color: #ffffff;
+    }
+  </style>
 </head>
-
 <body>
-    <header>
-        <h1>
-            <span>My Bucket</span>
-            <span style="color: gold">List</span>
-        </h1>
-    </header>
-    <main class="bucket_list">
-        <section class="container">
-            <input type="text" placeholder="Add a new goal.."><button>ADD</button>
-        </section>
-        <section class="container2">
-            <h2>Thing to do</h2>
-            <ul>
-                <li><span class="icon">&#10004;</span> Go skydiving</li>
-                <li><span class="icon">&#10004;</span> Run a marathon</li>
-                <li><span class="icon">&#10004;</span> Learn to play a musical instrument</li>
-                <li><span class="icon">&#10004;</span> Watch the Northern Lights</li>
-
-                <li><span class="star">&#9733;</span> Start a YouTube channel</li>
-                <li><span class="star">&#9733;</span> Ride in a hot air balloon</li>
-                <li><span class="star">&#9733;</span> Take a road trip across the country</li>
-                <li><span class="star">&#9733;</span> Go scuba diving in the Great Barrier Reef</li>
-            </ul>
-        </section>
-    </main>
-    <footer></footer>
+  <div class="container">
+    <h1>Welcome to My Attractive Page</h1>
+    <p>This page has a beautiful gradient background with matching text colors.  
+    The design is simple, modern, and easy on the eyes.</p>
+    <button>Click Me</button>
+  </div>
 </body>
-
 </html>
